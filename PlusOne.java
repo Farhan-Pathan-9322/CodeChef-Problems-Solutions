@@ -9,7 +9,7 @@ class Solution {
                 digits[i] = digits[i] + 1;
                 return digits;
             }
-            digits[i] = 0;
+                digits[i] = 0;
         }
         int[] arr = new int[digits.length + 1];
         for (int j = 0; j < digits.length; j++) {
