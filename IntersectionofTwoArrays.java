@@ -14,7 +14,8 @@ class Solution {
         }
 
         for (int num : nums2) {
-            if (set1.contains(num)) {
+            if (set1.contains(num)) 
+            {
                 resultSet.add(num);
             }
         }
