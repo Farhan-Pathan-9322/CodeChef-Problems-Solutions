@@ -19,6 +19,7 @@ class Codechef {
                 }
             }
 
+            
             int len = s.length();
             if (count0 == len - 1 || count1 == len - 1) {
                 System.out.println("Yes");
